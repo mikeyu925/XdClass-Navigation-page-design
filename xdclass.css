@@ -1,0 +1,296 @@
+.header_img img {
+    width: 100%;
+}
+
+.sousuo,
+.vip {
+    width: 16px;
+    height: 16px;
+}
+
+.sousuo {
+    position: absolute;
+    right: 1px;
+    bottom: 26px;
+}
+
+.user {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header_nav {
+    display: flex;
+    /* background-color: pink; */
+    padding: 0 20px;
+    height: 72px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    box-shadow: 0px -10px 40px #000;
+}
+
+.nav_left {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nav_left img {
+    width: 116px;
+    height: 58px;
+    margin-right: 20px;
+}
+
+.nav_left div {
+    margin-right: 20px;
+    position: relative;
+}
+
+.nav_left input {
+    border-bottom: 1px solid #000;
+}
+
+.nav_left div i {
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    top: -16px;
+    right: -10px;
+    font-size: 14px;
+    width: 25px;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center;
+}
+
+.nav_right div {
+    position: relative;
+}
+
+.nav_right div:not(:last-child) {
+    margin-right: 20px;
+}
+
+.nav_right div i {
+    background-color: red;
+    border-radius: 8px;
+    color: white;
+    position: absolute;
+    top: -16px;
+    right: -10px;
+    font-size: 14px;
+    width: 25px;
+}
+
+
+/* banner 部分 */
+
+.xiangyou {
+    width: 18px;
+    height: 18px;
+}
+
+.banner {
+    width: 1000px;
+    height: 406px;
+    background-color: bisque;
+    margin: 40px auto 0;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 12px 24px 0 rgb(7, 17, 27 / 60%);
+}
+
+.banner_left {
+    flex: 3;
+    background-color: blue;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+.banner_right {
+    flex: 7;
+    background-color: coral;
+}
+
+.banner_right img {
+    width: 800;
+    height: 406;
+}
+
+.left_item {
+    padding: 0 10px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* 列表部分 */
+
+.hot_list {
+    width: 1000px;
+    margin: 50px auto 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.list_title {
+    width: 160px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hot_chi {
+    font-size: 20px;
+    border-bottom: 2px solid red;
+}
+
+.hot_eng {
+    font-size: 14px;
+}
+
+.content_item img {
+    width: 220px;
+    height: 182px;
+}
+
+.content_item img:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.content_item {
+    width: 220px;
+    /* height: 304px; */
+    overflow: hidden;
+    position: relative;
+    /* margin-top: 10px; */
+}
+
+.content_item:hover {
+    color: red
+}
+
+.item_text {
+    background-color: rgb(240, 238, 238);
+    padding: 10px;
+    font-size: 14px;
+}
+
+.item_title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.item_jibie {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.huo,
+.touxiang {
+    width: 16px;
+    height: 16px;
+}
+
+.item_number {
+    display: flex;
+    justify-content: space-between;
+}
+
+.num_right .left {
+    font-size: 11px;
+    margin-right: 5px;
+    text-decoration: line-through;
+}
+
+.list_content {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.split_line {
+    height: 100px;
+    background-color: rgb(228, 228, 228);
+    margin-bottom: 30px;
+}
+
+
+/* 最新课程 */
+
+.new_list_img img {
+    width: 300px;
+    height: 618px;
+    margin-left: 20px;
+}
+
+.newest_list {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px 0;
+    box-shadow: 0 4px 8px 0 rgb(7, 17, 27 / 20%);
+}
+
+.new_list_con {
+    width: 1000px;
+    height: 618px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.free {
+    text-align: center;
+    width: 60px;
+    position: absolute;
+    background-color: #ea951b;
+    top: 0;
+    right: 0;
+    color: azure;
+    border-radius: 0 0 0 12px;
+}
+
+.icon_item {
+    width: 26px;
+    height: 26px;
+    margin-right: 10px;
+}
+
+.foot {
+    width: 432px;
+    display: flex;
+    padding: 50px 0;
+    flex-flow: column;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 12;
+}
+
+.foot_text {
+    width: 100%;
+    display: flex;
+    margin: 10px 0;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+
+.text_item {
+    margin-right: 10px;
+}
